@@ -1,0 +1,98 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+html header p.title {
+    display: flex;
+    user-select: none;
+}
+
+html header p.account {
+    color: black;
+    display: block;
+}
+
+html header p {
+    padding: 1%;
+}
+
+.loginButton {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #dfdfdf;
+    outline: none;
+    cursor: pointer;
+}
+
+.loginButton:hover {
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+html header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(240, 255, 255, 0.6);
+    padding: 0px;
+    margin: 0px;
+    align-content: space-between;
+}
+
+nav {
+    background-color: rgba(240, 248, 255, 0.5);
+    margin: 0px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0px;
+    padding-inline-start: 0px;
+    color: white;
+}
+
+nav ul li {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+nav ul li:hover {
+    background-color: lightgreen;
+    transition: background-color 0.3s;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    background: url('https://hypixel.net/attachments/aquarium-png.2881931/');
+    background-attachment: fixed;
+}
+
+div.login-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10%; */
+    min-height: 80vh;
+    padding: 0px;
+    flex-grow: 1;
+}
+
+div.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    width: auto;
+    background-color: rgba(240, 255, 255, 0.35);
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
